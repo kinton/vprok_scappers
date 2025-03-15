@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/dist/index.js",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ],
+      "args": [
+        // "https://www.vprok.ru/product/domik-v-derevne-dom-v-der-moloko-ster-3-2-950g--309202",
+        // "https://www.vprok.ru/product/petelinka-petelinka-kubiki-file-grud-tsb-ohl-550g--1304639",
+        // "https://www.vprok.ru/product/picnic-picnic-batonchik-big-76g--311996",
+        "https://www.vprok.ru/product/eko-kultura-tomaty-cherri-konfetto-250g--946756",
+        "Санкт-Петербург и область"
+      ],
+      "preLaunchTask": "tsc: watch - tsconfig.json"
+    }
+  ]
+}
